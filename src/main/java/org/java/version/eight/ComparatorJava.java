@@ -17,7 +17,10 @@ public class ComparatorJava {
         System.out.println(compare);
 
         //Using Lambda
-        Comparator<Integer> comparatorLambda=(Integer number1, Integer number2) -> number1.compareTo(number2);
-        System.out.println(comparatorLambda.compare(3, 3));
+        Comparator<Integer> lambda=(Integer number1, Integer number2) -> number1.compareTo(number2);
+        System.out.println(lambda.compare(3, 3));
+
+        Comparator<Integer> lambdaTypeSafe=( number1,  number2) -> number1.compareTo(number2);
+        System.out.println(lambdaTypeSafe.compare(3, 3));
     }
 }
