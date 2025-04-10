@@ -1,4 +1,4 @@
-package org.java.version.eight;
+package org.java.version.eight.lambda;
 
 import java.util.Comparator;
 

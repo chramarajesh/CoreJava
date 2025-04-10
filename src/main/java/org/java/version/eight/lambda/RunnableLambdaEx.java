@@ -1,4 +1,4 @@
-package org.java.version.eight;
+package org.java.version.eight.lambda;
 
 public class RunnableLambdaEx {
     public static void main(String[] args) {
