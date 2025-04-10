@@ -16,7 +16,7 @@ public class ComparatorJava {
         int compare = comparator.compare(0, 3);
         System.out.println(compare);
 
-//Using Lambda
+        //Using Lambda
         Comparator<Integer> comparatorLambda=(Integer number1, Integer number2) -> number1.compareTo(number2);
         System.out.println(comparatorLambda.compare(3, 3));
     }
